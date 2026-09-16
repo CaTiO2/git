@@ -1,0 +1,23 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.log
+
+# ---- 依赖与构建产物（按需保留） ----
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 敏感信息 ----
+.env
+.env.local
+*.pem
