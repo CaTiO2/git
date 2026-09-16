@@ -21,3 +21,6 @@ venv/
 .env
 .env.local
 *.pem
+
+# ---- 工具目录 ----
+.workbuddy/
